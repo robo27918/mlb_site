@@ -1,0 +1,31 @@
+body{
+    background-color:grey;
+    color: white;
+}
+
+img{
+    width:250px;
+    height:250px;
+}
+.main{
+    display:flex;
+    flex-direction:column;
+    /* border:solid purple 3px; */
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+
+
+.header{
+    margin:auto;
+    text-align: center;
+}
+.stats-container{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+.col{
+    font-size: 22px;
+}
