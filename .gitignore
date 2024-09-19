@@ -1,3 +1,16 @@
 .env
 venv/
 node_modules/
+
+
+# Ignore dependency directories
+requests/
+pymongo/
+dnspython/
+python-mlb-statsapi/
+
+# Ignore Python cache files
+statsLambda/
+
+# Ignore zip files (optional if you zip for deployment)
+*.zip
